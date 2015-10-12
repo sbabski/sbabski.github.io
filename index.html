@@ -9,15 +9,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <script src="source/jquery.js"></script>
-  <link rel="icon" type="image/png" href="images/small2.png" />
+  <link rel="icon" type="image/png" href="images/small.png" />
+  <style type="text/css">
+
+    @font-face {
+      font-family: 'Aracne';
+      src: url('fonts/acRg.otf');
+      font-weight: normal;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #3A5B7F;
+      overflow: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color: #5D92CC;
+    }
+
+    a:hover {
+      color: #75B6FF;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .container {
+      position: relative;
+      max-width: 100%;
+      color: #d3d3d3;
+    }
+
+    h1 {
+      font-family: 'Aracne';
+      font-size: 5rem;
+      font-weight: normal;
+    }
+
+    h2 {
+      font-family: 'Aracne';
+      font-size: 2.75rem;
+      font-weight: normal; 
+    }
+
+    #oct {
+      width: 33%;
+      display: inline-block;
+      margin-right: -4.75rem;
+      vertical-align: middle;
+    }
+
+    .scene {
+      padding: 0;
+      margin: 0;
+    }
+
+    .text {
+      margin-top: 5rem;
+    }
+
+    .oct-wrapper {
+      width: 100%;
+      text-align: right;
+
+    }
+
+    .text-wrapper {
+      width: 100%;
+      margin: 5rem;
+    }
+
+    .text-offset {
+      margin-top: 12rem;
+    }
+
+    .textbox {
+      width: 60%;
+    }
+  </style>
 </head>
 
 <body>
+  <!--
   <div class="container">
     <ul id="scene">
-      <li class="layer" data-depth="0.40"><img src="images/graphicwhite.png"></li>
-      <li class="layer" data-depth="0.00">Sarah Babski</li>
+      <li class="layer" data-depth="0.80"><img id="oct" src="images/graphicwhite.png"></li>
+      <li class="layer" data-depth="0.10">
+        <h1>Hello. I'm Sarah Babski</h1></li>
+      <li class="layer text" data-depth="0.00">
+        <h2>I do cool stuff like code and design things.</h2>
+        <h2>Check out my fresh, homecooked projects below. Made from only the finest free-range ideas. FDA approved.</h2>
+      </li>
     </ul>
+  </div>
+  -->
+  <div id="container" class="container">
+    <ul id="scene">
+      <li class="layer" data-depth="0.40">
+        <div class="oct-wrapper">
+          <img id="oct" src="images/graphicwhite.png">
+        </div>
+      </li>
+      <li class="layer" data-depth="0.10">
+        <div class="text-wrapper">
+          <h1>Hello. I'm Sarah Babski.</h1>
+        </div>
+      </li>
+      <li class="layer" data-depth="0.00">
+        <div class="text-wrapper text-offset textbox">
+          <h2>I'm currently a third-year undergraduate student at Northeastern University studying Computer Science and Interactive Media. I do cool stuff like code and design things, especially for the web.</h2>
+          <h2>My online portfolio is currently under construction, but in the meantime, check out some of my projects on <a href="https://github.com/sbabski">Github</a> or take a look at my <a href="./resume.pdf">resume</a>.</h2>
+        </div>
+      </li>
+    </ul>
+
   </div>
   <script src="source/jquery.parallax.js"></script>
   <script>
