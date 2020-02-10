@@ -19,8 +19,8 @@
 	<string>ad-hoc</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>com.PASA.GameChanger</key>
-		<string>Game Changer</string>
+		<key>com.icon.holoconfig</key>
+		<string>HoloConfig AdHoc</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>Apple Distribution</string>
@@ -29,7 +29,7 @@
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>YB3BR67396</string>
+	<string>23DU8PVAAW</string>
 	<key>thinning</key>
 	<string>&lt;none&gt;</string>
 </dict>

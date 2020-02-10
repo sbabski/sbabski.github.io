@@ -29,15 +29,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.PASA.GameChanger</string>
+				<string>com.icon.holoconfig</string>
 				<key>bundle-version</key>
-				<string>1.0.6</string>
+				<string>2.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>GameChanger</string>
+				<string>holoconfig</string>
 			</dict>
 		</dict>
 	</array>

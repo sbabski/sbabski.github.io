@@ -12,9 +12,9 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>1D7FD294C77B887A126CCE77CBEAF8B74640659D</string>
+				<string>2D92D8DFBFBD55F0B8DE5D8D95478453A13D6F9E</string>
 				<key>dateExpires</key>
-				<string>10/29/20</string>
+				<string>10/27/22</string>
 				<key>type</key>
 				<string>iOS Distribution</string>
 			</dict>
@@ -28,51 +28,51 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>1D7FD294C77B887A126CCE77CBEAF8B74640659D</string>
+						<string>2D92D8DFBFBD55F0B8DE5D8D95478453A13D6F9E</string>
 						<key>dateExpires</key>
-						<string>10/29/20</string>
+						<string>10/27/22</string>
 						<key>type</key>
 						<string>iOS Distribution</string>
 					</dict>
 					<key>name</key>
-					<string>Vuforia.framework</string>
+					<string>UnityFramework.framework</string>
 					<key>team</key>
 					<dict>
 						<key>id</key>
-						<string>YB3BR67396</string>
+						<string>23DU8PVAAW</string>
 						<key>name</key>
-						<string>Panasonic Automotive Systems Company of America</string>
+						<string>A2 Media Corp</string>
 					</dict>
 				</dict>
 			</array>
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>YB3BR67396.com.PASA.GameChanger</string>
+				<string>23DU8PVAAW.com.icon.holoconfig</string>
 				<key>com.apple.developer.team-identifier</key>
-				<string>YB3BR67396</string>
+				<string>23DU8PVAAW</string>
 				<key>get-task-allow</key>
 				<false/>
 				<key>keychain-access-groups</key>
 				<array>
-					<string>YB3BR67396.com.PASA.GameChanger</string>
+					<string>23DU8PVAAW.com.icon.holoconfig</string>
 				</array>
 			</dict>
 			<key>name</key>
-			<string>GameChanger.app</string>
+			<string>holoconfig.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>b9738ea9-921c-499b-aaa5-90b3c5280ba4</string>
+				<string>2d35278c-4488-41e6-b730-866c325c6859</string>
 				<key>name</key>
-				<string>Game Changer</string>
+				<string>HoloConfig AdHoc</string>
 			</dict>
 			<key>team</key>
 			<dict>
 				<key>id</key>
-				<string>YB3BR67396</string>
+				<string>23DU8PVAAW</string>
 				<key>name</key>
-				<string>Panasonic Automotive Systems Company of America</string>
+				<string>A2 Media Corp</string>
 			</dict>
 		</dict>
 	</array>
