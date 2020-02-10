@@ -9,11 +9,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://dl.dropboxusercontent.com/s/503bitev0basoaw/manifest.plist</string>
+		<string>https://sbabski.github.io/ipa/manifest.plist</string>
 		<key>displayImageURL</key>
-		<string>https://dl.dropboxusercontent.com/s/1alpr8gvx0dbgzd/app_logo.png</string>
+		<string>https://sbabski.github.io/ipa/app_logo.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://dl.dropboxusercontent.com/s/1alpr8gvx0dbgzd/app_logo.png</string>
+		<string>https://sbabski.github.io/ipa/app_logo.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
